@@ -1,0 +1,54 @@
+Name:             nginx-deployment-5654587fb9-5f567
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             minikube/192.168.49.2
+Start Time:       Mon, 11 Aug 2025 09:45:56 +0000
+Labels:           app=nginx
+                  pod-template-hash=5654587fb9
+Annotations:      <none>
+Status:           Running
+IP:               10.244.0.4
+IPs:
+  IP:           10.244.0.4
+Controlled By:  ReplicaSet/nginx-deployment-5654587fb9
+Containers:
+  nginx:
+    Container ID:   docker://d0551f92d14adb0aa02b8327ce0e0f06721d4189ad87f6311be3f791e4a6ac28
+    Image:          nginx:stable
+    Image ID:       docker-pullable://nginx@sha256:7935b9ee80fe4076ce8ca637fe7bb0c7a1268e2bd854032a0563ecc96bfa6747
+    Port:           80/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 11 Aug 2025 09:46:10 +0000
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-zh9rn (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-zh9rn:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    Optional:                false
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  3m14s  default-scheduler  Successfully assigned default/nginx-deployment-5654587fb9-5f567 to minikube
+  Normal  Pulling    3m13s  kubelet            Pulling image "nginx:stable"
+  Normal  Pulled     3m     kubelet            Successfully pulled image "nginx:stable" in 2.032s (12.653s including waiting). Image size: 192474705 bytes.
+  Normal  Created    3m     kubelet            Created container: nginx
+  Normal  Started    3m     kubelet            Started container nginx

@@ -1,0 +1,3 @@
+NAME                                READY   STATUS    RESTARTS   AGE     IP           NODE       NOMINATED NODE   READINESS GATES
+nginx-deployment-5654587fb9-5f567   1/1     Running   0          2m22s   10.244.0.4   minikube   <none>           <none>
+nginx-deployment-5654587fb9-wl5t2   1/1     Running   0          2m22s   10.244.0.3   minikube   <none>           <none>
