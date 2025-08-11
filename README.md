@@ -181,6 +181,27 @@ Kubernetes Docs
 Docker Install Guide
 
 
+# Screenshots:
+
+
+<img width="1352" height="560" alt="Screenshot 2025-08-11 164820" src="https://github.com/user-attachments/assets/f477e072-3e18-483b-b0a4-5fd164455658" />
+
+
+
+<img width="1285" height="688" alt="Screenshot 2025-08-11 154004" src="https://github.com/user-attachments/assets/bcb7522b-9c84-46fa-ae9f-2121784cd9d2" />
+
+
+
+<img width="1359" height="685" alt="Screenshot 2025-08-11 153857" src="https://github.com/user-attachments/assets/fd795cc6-498d-4e8c-8f57-41cd728d57c7" />
+
+
+
+<img width="1351" height="346" alt="Screenshot 2025-08-11 153724" src="https://github.com/user-attachments/assets/bb0ce0a6-b77c-434f-8f10-b5f6bacff770" />
+
+
+
+
+
 
 
 
